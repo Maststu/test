@@ -3,4 +3,5 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello!'
+    str="Upload via Git!"
+    return str
